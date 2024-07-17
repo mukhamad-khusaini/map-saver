@@ -1,7 +1,9 @@
 function Controller() {
-    return <>
-    <button></button>
-    </>;
+  return (
+    <>
+      <button></button>
+    </>
+  );
 }
 
 export default Controller;
