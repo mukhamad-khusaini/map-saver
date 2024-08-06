@@ -1,5 +1,5 @@
 export interface ITemplate {
   name: string;
-  latitude: number;
-  longitude: number;
+  latitude: string;
+  longitude: string;
 }

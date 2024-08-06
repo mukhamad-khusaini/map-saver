@@ -16,7 +16,11 @@ function App() {
 
   // <jalankan> Ambil data dari spreadsheet
   useEffect(() => {
-    getMapsData();
+    try {
+      getMapsData();
+    } catch (e) {
+      console.log(e);
+    }
   }, []);
 
   console.log(maps);
